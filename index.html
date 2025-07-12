@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Temperatures</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://images.icon-icons.com/8/PNG/256/cloudyweather_cloud_inpart_day_wind_thunder_sunny_rain_darkness_nublad_1459.png" type="image/png">
+
+
+</head>
+<body>
+
+  <header>World Vitals</header>
+
+  <div class="form-container">
+    <form action="/" method="post" autocomplete="off">
+      <label for="cityInput">City Name:</label>
+      <input id="cityInput" type="text" name="cityName" required>
+
+      <label for="unit">Select Unit:</label>
+      <select id="unit" name="metricUnit">
+        <option value="metric">Celsius (°C)</option>
+        <option value="imperial">Fahrenheit (°F)</option>
+        <option value="standard">Kelvin (K)</option>
+      </select>
+
+      <br>
+      <button type="submit">Get Weather</button>
+    </form>
+  </div>
+
+  <footer>
+    <a href="https://johnathanfermon.github.io/CapstoneProjectWEB/Pages/Card.html" target="_blank">
+      <button class="contact-btn">Contact</button>
+    </a>
+  </footer>
+
+</body>
+</html>
